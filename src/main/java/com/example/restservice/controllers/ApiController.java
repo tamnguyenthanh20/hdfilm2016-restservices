@@ -19,6 +19,7 @@ public class ApiController {
     @RequestMapping(value = "/test/1", method = RequestMethod.GET)
     public @ResponseBody long countEvent(@RequestParam(value = "x1")String x1,
                                          @RequestParam(value = "x2")String x2) {
+        System.out.println("x1 = " + x1);
         long countEvent = 321;
         return countEvent;
     }
