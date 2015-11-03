@@ -1,0 +1,10 @@
+**/target/
+**/git.properties
+.classpath
+.project
+.settings/
+**/*.class
+
+*.iml
+.idea
+/target/
