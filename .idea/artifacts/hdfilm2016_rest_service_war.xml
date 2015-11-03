@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="hdfilm2016-rest-service:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="hdfilm2016-rest-service.war">
+    <root id="archive" name="hdfilm2016-restservice-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="hdfilm2016-rest-service:war exploded" />
     </root>
   </artifact>

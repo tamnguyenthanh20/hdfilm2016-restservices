@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.restservice</groupId>
-    <artifactId>hdfilm2016-rest-service</artifactId>
+    <artifactId>hdfilm2016-restservice</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -41,7 +41,6 @@
     </dependencies>
 
     <build>
-        <finalName>hdfilm2016-rest-service</finalName>
         <plugins>
 
             <plugin>
