@@ -30,7 +30,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
     AopAutoConfiguration.class,
     PropertyPlaceholderAutoConfiguration.class
 })
-@ImportResource("classpath:config-properties.xml")
+@ImportResource("classpath:config-rest-properties.xml")
 public class Application {
 
     private static final String SECURITY_ROLE_API_CLIENT = "API_CLIENT";
